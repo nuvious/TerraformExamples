@@ -85,7 +85,7 @@ username is 'ubuntu':
 
 ```bash
 
-nuvious@rpiterm:~/Teraform/aws/simple-compute $ ssh ubuntu@192.18.56.23
+$:~/Teraform/aws/simple-compute $ ssh ubuntu@192.18.56.23
 Welcome to Ubuntu 22.04.2 LTS (GNU/Linux 5.19.0-1023-aws x86_64)
 ...
 # Welcome banner stuff
