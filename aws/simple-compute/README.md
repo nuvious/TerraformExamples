@@ -35,7 +35,7 @@ $:~/Teraform/aws/simple-compute $ terraform show
 # aws_eip.eip:
 resource "aws_eip" "eip" {
 ...
-    public_ip            = "3.132.204.71"
+    public_ip            = "192.18.56.23"
 ...
 }
 
