@@ -1,7 +1,5 @@
 resource "aws_key_pair" "user_key" {
   key_name   = "user_key"
   public_key = file("${var.ssh_public_key_path}")
-  tags = {
-    Name = "${var.name}"
-  }
+  tags = var.tags
 }
